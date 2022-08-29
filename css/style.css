@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+padding: 0;
+border: 0;
+
+}
+body{
+   background-color: rgb(90, 90, 149);
+}
+#admin-box{
+background-color: rgb(29, 7, 76);
+color: white;
+text-align: center;
+width: 50%;
+margin:25% auto;
+padding: 20px;
+border-radius: 5px;
+}
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase; 
+border-radius: 5px;
+    
+}
+.admin-img{
+width: 150px;
+
+}
+input,label{
+display: block;
+width: 90%;
+margin: auto;
+padding:10px ;
+
+}
+input{
+    background-color: transparent;
+    color: rgb(236, 217, 217);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+
+}
+p{font-size: 20px;}
+p a{
+    text-decoration: none;
+    color:rgb(90, 90, 149) ;
+    text-transform: capitalize;
+}
+input:focus{
+   
+    background-color:rgb(90, 90, 149) ;
+}
+input::placeholder{
+   color: black;}
+
+
+input[type="submit"]{
+background-color:rgb(90, 90, 149);
+border: 1px solid rgb(90, 90, 149);
+transition: ease-in-out 0.8s;
+margin: 20px auto;
+width: 25%;
+}
+
+input[type="submit"]:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
